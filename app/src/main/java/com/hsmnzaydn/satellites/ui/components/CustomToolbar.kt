@@ -62,11 +62,7 @@ class CustomToolbar @JvmOverloads constructor(
             }else{
                 binding.linearLayout.show()
                 binding.titleTextView.gone()
-                val transition = Slide(Gravity.LEFT)
-                transition.duration = 500
-                transition.startDelay = 500
                 binding.appCompatImageView.setImageResource(R.drawable.ic_close)
-                TransitionManager.beginDelayedTransition(binding.linearLayout, transition)
                 binding.searchEditText.show()
                 binding.searchEditText.keyboardFocus()
             }

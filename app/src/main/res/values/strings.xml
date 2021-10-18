@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Satellites</string>
-    <string name="satellite_active">Active</string>
-    <string name="satellite_disable">Disable</string>
+
+
+    <!-- Titles -->
+    <string name="title_satellite">Satellites</string>
+
+    <!-- Warning -->
     <string name="warning_satellites">Couldn\'t find satellites</string>
+
+    <!-- Common -->
+    <string name="common_satellite_active">Active</string>
+    <string name="common_satellite_disable">Disable</string>
+    <string name="satellite_detail_height_mass">Height/Mass:</string>
+    <string name="satellite_detail_cost">Cost:</string>
+    <string name="satellite_detail_positions">Positions:</string>
 </resources>

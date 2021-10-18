@@ -57,7 +57,7 @@ class SatelliteRepositoryImpl(val context:Context,val gson: Gson):SatelliteRepos
         var data = CoreCommonUtils.loadJSONFromAsset(context,"satellites")
         var response = gson.fromJson(data, Array<SatelliteResponse>::class.java)
         response.filter {
-            it.name.contains(query)
+            it.name.toLowerCase().contains(query.toLowerCase())
         }.apply {
             return this
         }

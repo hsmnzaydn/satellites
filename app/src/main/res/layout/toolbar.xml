@@ -18,6 +18,7 @@
         android:orientation="horizontal"
         android:visibility="gone"
         android:padding="16dp"
+        android:animateLayoutChanges="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/appCompatImageView"
         app:layout_constraintStart_toStartOf="parent"

@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Satellites"
+        android:text="@string/title_satellite"
         app:toolbar_type="SEARCH"
         />
     <TextView

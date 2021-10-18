@@ -12,6 +12,7 @@
         <entry key="app/src/main/res/layout/fragment_satellite.xml" value="0.2015625" />
         <entry key="app/src/main/res/layout/fragment_satellite_detail.xml" value="0.2164855072463768" />
         <entry key="app/src/main/res/layout/fragment_satellite_list.xml" value="0.2907608695652174" />
+        <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.2015625" />
         <entry key="app/src/main/res/layout/row_satellite.xml" value="0.2015625" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.2907608695652174" />
       </map>

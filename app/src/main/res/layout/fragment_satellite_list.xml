@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:visibility="gone"
-        android:text="Aradiginiz uydu bulunamadi"/>
+        android:text="@string/warning_satellites"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

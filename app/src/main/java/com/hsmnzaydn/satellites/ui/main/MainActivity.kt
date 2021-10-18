@@ -6,6 +6,7 @@ import com.hsmnzaydn.satellites.R
 import com.hsmnzaydn.satellites.base.view.BaseActivity
 import com.hsmnzaydn.satellites.databinding.ActivityMainBinding
 import com.hsmnzaydn.satellites.ui.satellitelist.SatelliteListFragment
+import com.hsmnzaydn.satellites.ui.splash.SplashFragment
 import com.hsmnzaydn.satellites.utils.fragment_controller.FragmentController
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,7 +24,8 @@ class MainActivity : BaseActivity() {
 
         navigator.apply {
             init(null)
-            startFragment(SatelliteListFragment.newInstance()) {
+            startFragment(SplashFragment.newInstance()) {
+                history = false
             }
         }
 

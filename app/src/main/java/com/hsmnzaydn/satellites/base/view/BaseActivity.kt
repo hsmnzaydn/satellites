@@ -14,6 +14,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.gson.Gson
+import com.hsmnzaydn.satellites.R
 import com.hsmnzaydn.satellites.utils.CoreCommonUtils
 import java.util.*
 
@@ -54,6 +55,8 @@ abstract class BaseActivity : AppCompatActivity() {
     open fun showError(text: String) {
         Toast.makeText(this@BaseActivity, text, Toast.LENGTH_SHORT).show()
     }
+
+
 
 
 }

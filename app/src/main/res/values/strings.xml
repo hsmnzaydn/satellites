@@ -2,4 +2,5 @@
     <string name="app_name">Satellites</string>
     <string name="satellite_active">Active</string>
     <string name="satellite_disable">Disable</string>
+    <string name="warning_satellites">Couldn\'t find satellites</string>
 </resources>

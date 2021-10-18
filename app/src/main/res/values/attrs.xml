@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolbar">
+        <attr name="android:text" format="string" />
+
+        <attr name="toolbar_type" format="enum">
+            <enum name="TITLE" value="0" />
+            <enum name="SEARCH" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

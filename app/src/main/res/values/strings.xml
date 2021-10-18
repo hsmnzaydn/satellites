@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Satellites</string>
+    <string name="satellite_active">Active</string>
+    <string name="satellite_disable">Disable</string>
+</resources>

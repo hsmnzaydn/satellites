@@ -4,9 +4,7 @@ import androidx.annotation.AnimRes
 import androidx.annotation.AnimatorRes
 import com.hsmnzaydn.satellites.R
 
-/**
- * Created by Kemal Tunç on 2020-09-30
- */
+
 
 
 class Animation(

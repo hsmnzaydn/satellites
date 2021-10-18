@@ -9,9 +9,6 @@ import com.hsmnzaydn.satellites.utils.fragment_controller.animation.Animation
 import com.hsmnzaydn.satellites.utils.fragment_controller.data.FragmentStack
 
 
-/**
- * Created by Kemal Tunç on 2020-09-30
- */
 
 interface Navigator {
 

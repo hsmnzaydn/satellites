@@ -8,9 +8,6 @@ import com.hsmnzaydn.satellites.utils.fragment_controller.FragmentOption
 import com.hsmnzaydn.satellites.utils.fragment_controller.data.BottomMenu
 
 
-/**
- * Created by Kemal Tunç on 2020-09-30
- */
 
 
 fun BottomNavigationView.create(

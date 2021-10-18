@@ -15,9 +15,7 @@ import com.hsmnzaydn.satellites.utils.fragment_controller.data.FragmentStack
 import com.hsmnzaydn.satellites.utils.fragment_controller.extension.getFragTag
 
 
-/**
- * Created by Kemal Tunç on 2020-09-30
- */
+
 
 class FragmentController(private val activity: Activity, private val containerId: Int) : Navigator {
 

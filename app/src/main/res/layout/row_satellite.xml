@@ -4,16 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="70dp"
     android:elevation="1dp"
-    android:layout_marginTop="1dp"
     android:id="@+id/cardview"
     xmlns:tools="http://schemas.android.com/tools">
 
 
     <FrameLayout
-        android:padding="8dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:padding="8dp"
             android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -38,6 +37,12 @@
                 tools:text="Active" />
 
         </LinearLayout>
+
+        <View
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"/>
 
     </FrameLayout>
 

@@ -6,6 +6,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.provider.Settings;
+import android.view.inputmethod.InputMethodManager
 import java.io.IOException
 import java.io.InputStream
 import java.nio.charset.Charset
@@ -48,6 +49,7 @@ class CoreCommonUtils {
             }
             return json
         }
+
     }
 
 

@@ -27,12 +27,12 @@ class SatelliteListAdapter() : BaseAdapter<BaseEntity>() {
             with(binding) {
                 satelliteNameTextView.setText(item.name)
                 if(item.status){
-                    satelliteStatusTextView.setText(context.getString(R.string.satellite_active))
+                    satelliteStatusTextView.setText(context.getString(R.string.common_satellite_active))
                     satelliteStatusTextView.setTextColor(context.getColor(R.color.black))
                     satelliteNameTextView.setTextColor(context.getColor(R.color.black))
 
                 }else{
-                    satelliteStatusTextView.setText(context.getString(R.string.satellite_disable))
+                    satelliteStatusTextView.setText(context.getString(R.string.common_satellite_disable))
                     satelliteStatusTextView.setTextColor(context.getColor(R.color.grey))
                     satelliteNameTextView.setTextColor(context.getColor(R.color.grey))
                     cardview.cardElevation = 0f

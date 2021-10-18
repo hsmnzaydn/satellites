@@ -53,7 +53,7 @@ class SatelliteDetailFragment : BaseFragment<SatelliteDetailVM, FragmentSatellit
     private val satellitePosition = CoreEventObserver<CoreDataState<Position>> {
         it.data.apply {
             this?.let {
-                binding.lastPositionTextView.text = "${it.posX.toString()},${it.posY.toString()}"
+                binding.lastPositionTextView.text = "(${it.posX.toString()},${it.posY.toString()})"
                 lifecycleScope.launch {
                     kotlinx.coroutines.delay(3000)
                     viewModel.fetchSatellitePosition(satelliteId)
